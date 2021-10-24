@@ -15,7 +15,7 @@ const Home: NextPage = () => {
                 </div>
 
                 <a href="https://www.tiktok.com/@jongraz?" className="social-share">
-                    <img src="/tiktok_logo.png" layout="fill" />
+                    <img src="/tiktok_logo.png" />
                     @jongraz
                 </a>
             </main>
