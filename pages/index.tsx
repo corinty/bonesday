@@ -10,12 +10,15 @@ const Home: NextPage = () => {
             <main>
                 <div className="reading">
                     <button onClick={() => setIsBonesDay(!isBonesDay)}>
-                        It's a {isBonesDay ? "no" : ""}bones day!
+                        It's a <br /> {isBonesDay ? "no" : ""}bones
+                        <br /> day!
                     </button>
                 </div>
 
                 <a href="https://www.tiktok.com/@jongraz?" className="social-share">
-                    <img src="/tiktok_logo.png" />
+                    <div className="ttlogo">
+                        <img src="/tiktok_logo.png" />
+                    </div>
                     @jongraz
                 </a>
             </main>

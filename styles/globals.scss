@@ -23,7 +23,7 @@ a {
 main {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 50vh 10vh;
+    grid-template-rows: 90vh 10vh;
     color: #fff;
 }
 button {
@@ -47,15 +47,20 @@ button {
     }
 }
 .social-share {
+    position: fixed;
+    z-index: 90;
+    bottom: 1em;
+    right: 1em;
     grid-column: 2;
     font-size: 2rem;
-    padding-bottom: 1em;
-    padding-right: 1em;
     display: flex;
     gap: 0.2em;
     justify-content: flex-end;
-    img {
-        object-fit: contain;
-        height: 100%;
+    .ttlogo {
+        height: 1.5em;
+        img {
+            object-fit: contain;
+            height: 100%;
+        }
     }
 }
