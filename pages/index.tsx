@@ -15,9 +15,9 @@ const Home: NextPage = () => {
                     </button>
                 </div>
 
-                <a href="https://www.tiktok.com/@jongraz?" className="social-share">
+                <a href="https://www.tiktok.com/@jongraz" className="tik-tok">
                     <div className="ttlogo">
-                        <img src="/tiktok_logo.png" />
+                        <img src="/tik-tok_logo.png" />
                     </div>
                     @jongraz
                 </a>
